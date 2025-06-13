@@ -1,0 +1,8 @@
+- name: Deploy Ghost CMS to Minikube
+  hosts: localhost
+  become: false
+  vars:
+    docker_image: "harriscybersecdevop/ghost-custom:latest"
+  roles:
+    - ghost
+
