@@ -23,6 +23,5 @@ jobs:
 
       - name: Build and push Docker image using buildx
         run: |
-          docker buildx build --platform linux/amd64 \
-            -t ${{ secrets.DOCKER_USERNAME }}/ghost-custom:latest \
-            --push .
+          docker buildx build --platform linux/amd64 -t ${{ secrets.DOCKER_USERNAME }}/ghost-custom:latest --push .
+
