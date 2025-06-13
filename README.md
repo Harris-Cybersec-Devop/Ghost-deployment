@@ -133,7 +133,3 @@ Edit
 minikube service ghost-service --url
 Open the printed URL in your browser to view your Ghost CMS instance.
 
-
-Exposes it on a NodePort<img width="1440" alt="Screenshot 2025-06-13 at 6 26 09 AM" src="https://github.com/user-attachments/assets/bd77b933-9a41-46d1-9628-5b6fc19503aa" />
-<img width="1440" alt="Screenshot 2025-06-13 at 6 26 09 AM" src="https://github.com/user-attachments/assets/7540293d-64b1-43aa-bdd0-8d2b7c8baea8" />
-
